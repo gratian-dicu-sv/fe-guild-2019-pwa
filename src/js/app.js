@@ -17,16 +17,16 @@ window.addEventListener("load", () => {
   }
 });
 
-let deferredPrompt;
+// let deferredPrompt;
 
-window.addEventListener("beforeinstallprompt", event => {
-  // Prevent Chrome 67 and earlier from automatically showing the prompt
-  event.preventDefault();
+// window.addEventListener("beforeinstallprompt", event => {
+//   // Prevent Chrome 67 and earlier from automatically showing the prompt
+//   event.preventDefault();
 
-  console.log("beforeinstallprompt fired");
+//   console.log("beforeinstallprompt fired");
 
-  // Stash the event so it can be triggered later.
-  deferredPrompt = event;
+//   // Stash the event so it can be triggered later.
+//   deferredPrompt = event;
 
-  return false;
-});
+//   return false;
+// });
