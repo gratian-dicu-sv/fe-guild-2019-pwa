@@ -38,8 +38,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/index.html",
-  "scope": ".",
+  "start_url": "/fe-build-2019-pwa/index.html",
+  "scope": "/fe-build-2019-pwa/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#fff",
